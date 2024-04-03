@@ -9,7 +9,7 @@ global.party =
 		mp: 10,
 		mpMax: 15,
 		strength: 6,
-		sprites : { idle: sLuluIdle, attack: sLuluAttack, defend: sLuluDefend, down: sLuluDown},
+		sprites : { idle: spr_player_idle, attack: sLuluAttack, defend: sLuluDefend, down: sLuluDown},
 		actions : []
 	}
 	,
