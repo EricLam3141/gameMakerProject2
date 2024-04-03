@@ -50,7 +50,7 @@
     {"id":{"name":"sAttackSlash","path":"sprites/sAttackSlash/sAttackSlash.yy",},},
     {"id":{"name":"sBg","path":"sprites/sBg/sBg.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
-    {"id":{"name":"sLuluDefend","path":"sprites/sLuluDefend/sLuluDefend.yy",},},
+    {"id":{"name":"spr_player_defend","path":"sprites/spr_player_defend/spr_player_defend.yy",},},
     {"id":{"name":"sAttackIce","path":"sprites/sAttackIce/sAttackIce.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"sBatAttack","path":"sprites/sBatAttack/sBatAttack.yy",},},

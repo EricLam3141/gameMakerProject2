@@ -32,7 +32,7 @@
     {"name":"sAttackSlash","order":5,"path":"sprites/sAttackSlash/sAttackSlash.yy",},
     {"name":"sBg","order":1,"path":"sprites/sBg/sBg.yy",},
     {"name":"spr_player_idle","order":7,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
-    {"name":"sLuluDefend","order":5,"path":"sprites/sLuluDefend/sLuluDefend.yy",},
+    {"name":"spr_player_defend","order":5,"path":"sprites/spr_player_defend/spr_player_defend.yy",},
     {"name":"sAttackIce","order":4,"path":"sprites/sAttackIce/sAttackIce.yy",},
     {"name":"sBatAttack","order":3,"path":"sprites/sBatAttack/sBatAttack.yy",},
     {"name":"sSlimeAttack","order":1,"path":"sprites/sSlimeAttack/sSlimeAttack.yy",},
