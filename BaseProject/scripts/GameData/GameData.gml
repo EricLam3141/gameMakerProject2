@@ -30,7 +30,7 @@ global.enemies =
 {
 	slimeG: 
 	{
-		name: "Slime",
+		name: "GIGA RAT",
 		hp: 30,
 		hpMax: 30,
 		mp: 0,
