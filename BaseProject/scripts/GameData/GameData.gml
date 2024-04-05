@@ -1,9 +1,9 @@
 
-//Party data
+//Party data scale from 1-100, divided informally into 25 segements represented by low, average, decent, and high
 global.party = 
 [
 	{
-		name: "Lulu",
+		name: "Gareth",
 		hp: 89,
 		hpMax: 89,
 		mp: 10,
@@ -14,13 +14,13 @@ global.party =
 	}
 	,
 	{
-		name: "Questy",
+		name: "Kevin-Kun",
 		hp: 18,
 		hpMax: 44,
 		mp: 20,
 		mpMax: 30,
 		strength: 4,
-		sprites : { idle: sQuestyIdle, attack: sQuestyCast, cast: sQuestyCast, down: sQuestyDown},
+		sprites : { idle: spr_kevin, attack: sQuestyCast, cast: sQuestyCast, down: sQuestyDown},
 		actions : []
 	}
 ]
@@ -36,7 +36,7 @@ global.enemies =
 		mp: 0,
 		mpMax: 0,
 		strength: 5,
-		sprites: { idle: sSlime, attack: sSlimeAttack},
+		sprites: { idle: spr_rat, attack: spr_rat_attack},
 		actions: [],
 		xpValue : 15,
 		AIscript : function()
