@@ -73,6 +73,7 @@
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},},
     {"id":{"name":"sAttackCure","path":"sprites/sAttackCure/sAttackCure.yy",},},
     {"id":{"name":"sLuluDown","path":"sprites/sLuluDown/sLuluDown.yy",},},
+    {"id":{"name":"spr_kevin_defend","path":"sprites/spr_kevin_defend/spr_kevin_defend.yy",},},
     {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_kevin","path":"sprites/spr_kevin/spr_kevin.yy",},},
