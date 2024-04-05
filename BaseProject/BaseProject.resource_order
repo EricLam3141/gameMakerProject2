@@ -52,6 +52,7 @@
     {"name":"spr_kevin","order":12,"path":"sprites/spr_kevin/spr_kevin.yy",},
     {"name":"sBox","order":12,"path":"sprites/sBox/sBox.yy",},
     {"name":"NewEncounter","order":4,"path":"scripts/NewEncounter/NewEncounter.yy",},
+    {"name":"Init","order":5,"path":"scripts/Init/Init.yy",},
     {"name":"sPointer","order":2,"path":"sprites/sPointer/sPointer.yy",},
     {"name":"spr_backgroundField","order":22,"path":"sprites/spr_backgroundField/spr_backgroundField.yy",},
     {"name":"sQuestyDown","order":10,"path":"sprites/sQuestyDown/sQuestyDown.yy",},

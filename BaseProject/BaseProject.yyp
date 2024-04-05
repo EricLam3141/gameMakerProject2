@@ -73,6 +73,7 @@
     {"id":{"name":"sBox","path":"sprites/sBox/sBox.yy",},},
     {"id":{"name":"obj_battle","path":"objects/obj_battle/obj_battle.yy",},},
     {"id":{"name":"NewEncounter","path":"scripts/NewEncounter/NewEncounter.yy",},},
+    {"id":{"name":"Init","path":"scripts/Init/Init.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"sPointer","path":"sprites/sPointer/sPointer.yy",},},
     {"id":{"name":"spr_backgroundField","path":"sprites/spr_backgroundField/spr_backgroundField.yy",},},
