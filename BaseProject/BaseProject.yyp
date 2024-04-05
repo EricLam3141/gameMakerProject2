@@ -58,6 +58,7 @@
     {"id":{"name":"sBatAttack","path":"sprites/sBatAttack/sBatAttack.yy",},},
     {"id":{"name":"spr_rat_attack","path":"sprites/spr_rat_attack/spr_rat_attack.yy",},},
     {"id":{"name":"obj_buttons","path":"objects/obj_buttons/obj_buttons.yy",},},
+    {"id":{"name":"spr_kevin_attack","path":"sprites/spr_kevin_attack/spr_kevin_attack.yy",},},
     {"id":{"name":"obj_battleUnitEnemy","path":"objects/obj_battleUnitEnemy/obj_battleUnitEnemy.yy",},},
     {"id":{"name":"sQuestyIdle","path":"sprites/sQuestyIdle/sQuestyIdle.yy",},},
     {"id":{"name":"GameData","path":"scripts/GameData/GameData.yy",},},

@@ -38,6 +38,7 @@
     {"name":"sBatAttack","order":3,"path":"sprites/sBatAttack/sBatAttack.yy",},
     {"name":"spr_rat_attack","order":1,"path":"sprites/spr_rat_attack/spr_rat_attack.yy",},
     {"name":"obj_buttons","order":4,"path":"objects/obj_buttons/obj_buttons.yy",},
+    {"name":"spr_kevin_attack","order":13,"path":"sprites/spr_kevin_attack/spr_kevin_attack.yy",},
     {"name":"obj_battleUnitEnemy","order":2,"path":"objects/obj_battleUnitEnemy/obj_battleUnitEnemy.yy",},
     {"name":"sQuestyIdle","order":11,"path":"sprites/sQuestyIdle/sQuestyIdle.yy",},
     {"name":"GameData","order":3,"path":"scripts/GameData/GameData.yy",},
