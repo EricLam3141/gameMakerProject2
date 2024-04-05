@@ -4,7 +4,7 @@ global.party =
 [
 	{
 		name: "Gareth",
-		hp: 89,
+		hp: 67,
 		hpMax: 89,
 		mp: 10,
 		mpMax: 15,

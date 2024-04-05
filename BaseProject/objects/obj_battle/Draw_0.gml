@@ -31,7 +31,7 @@ draw_set_font(fnM3x6);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_color(c_dkgray);
-draw_text(x + COLUMN_ENEMY, y+120, "ENEMY");
+draw_text(x + COLUMN_ENEMY-5, y+120, "ENEMY");
 draw_text(x + COLUMN_NAME, y+120, "NAME");
 draw_text(x + COLUMN_HP, y+120, "HP");
 draw_text(x + COLUMN_MP, y+120, "MP");
