@@ -52,6 +52,7 @@
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"spr_kevin","order":12,"path":"sprites/spr_kevin/spr_kevin.yy",},
     {"name":"sBox","order":12,"path":"sprites/sBox/sBox.yy",},
+    {"name":"Room2_Test","order":1,"path":"rooms/Room2_Test/Room2_Test.yy",},
     {"name":"NewEncounter","order":4,"path":"scripts/NewEncounter/NewEncounter.yy",},
     {"name":"Init","order":5,"path":"scripts/Init/Init.yy",},
     {"name":"sPointer","order":2,"path":"sprites/sPointer/sPointer.yy",},
