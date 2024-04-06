@@ -65,6 +65,7 @@
     {"name":"sAttackHeal","order":3,"path":"sprites/sAttackHeal/sAttackHeal.yy",},
     {"name":"fnM3x6","order":2,"path":"fonts/fnM3x6/fnM3x6.yy",},
     {"name":"sAttackBonk","order":21,"path":"sprites/sAttackBonk/sAttackBonk.yy",},
+    {"name":"spr_kevin_run","order":15,"path":"sprites/spr_kevin_run/spr_kevin_run.yy",},
     {"name":"sDownArrow","order":1,"path":"sprites/sDownArrow/sDownArrow.yy",},
     {"name":"spr_rat","order":4,"path":"sprites/spr_rat/spr_rat.yy",},
   ],
