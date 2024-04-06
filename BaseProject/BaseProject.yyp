@@ -85,6 +85,7 @@
     {"id":{"name":"sPointer","path":"sprites/sPointer/sPointer.yy",},},
     {"id":{"name":"spr_backgroundField","path":"sprites/spr_backgroundField/spr_backgroundField.yy",},},
     {"id":{"name":"sQuestyDown","path":"sprites/sQuestyDown/sQuestyDown.yy",},},
+    {"id":{"name":"obj_battleEffect","path":"objects/obj_battleEffect/obj_battleEffect.yy",},},
     {"id":{"name":"sAttackHeal","path":"sprites/sAttackHeal/sAttackHeal.yy",},},
     {"id":{"name":"fnM3x6","path":"fonts/fnM3x6/fnM3x6.yy",},},
     {"id":{"name":"sAttackBonk","path":"sprites/sAttackBonk/sAttackBonk.yy",},},

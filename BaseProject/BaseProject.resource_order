@@ -62,6 +62,7 @@
     {"name":"sPointer","order":2,"path":"sprites/sPointer/sPointer.yy",},
     {"name":"spr_backgroundField","order":1,"path":"sprites/spr_backgroundField/spr_backgroundField.yy",},
     {"name":"sQuestyDown","order":10,"path":"sprites/sQuestyDown/sQuestyDown.yy",},
+    {"name":"obj_battleEffect","order":5,"path":"objects/obj_battleEffect/obj_battleEffect.yy",},
     {"name":"sAttackHeal","order":3,"path":"sprites/sAttackHeal/sAttackHeal.yy",},
     {"name":"fnM3x6","order":2,"path":"fonts/fnM3x6/fnM3x6.yy",},
     {"name":"sAttackBonk","order":21,"path":"sprites/sAttackBonk/sAttackBonk.yy",},
