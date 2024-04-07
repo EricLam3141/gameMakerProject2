@@ -25,14 +25,18 @@ global.actionLibrary =
 		mpCost : 4,
 		targetRequired: true,
 		targetEnemyByDefault : true,
-		targetAll : MODE.NEVER,
+		targetAll : MODE.VARIES,
 		userAnimation : "cast", 
 		effectSprite : sAttackIce,
 		effectOnTarget : MODE.ALWAYS,
 		func : function(_user, _targets)
 		{
-			var _damage = irandom_range(10,15);
-			BattleChangeHP(_targets[0], -_damage);
+			for (var i = 0; i < array_length(_targets); i++)
+			{
+				var _damage = irandom_range(10,15);
+				BattleChangeHP(_targets[0], -_damage);
+			}
+
 		}
 		
 	}

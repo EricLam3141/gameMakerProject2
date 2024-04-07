@@ -64,6 +64,44 @@ function MenuGoBack()
 function MenuSelectAction(_user, _action)
 {
 	with(oMenu) active = false;
-	with (obj_battle) BeginAction(_user, _action, _user);
-	with(oMenu) instance_destroy();
+	//Activate cursor
+	with (obj_battle) 
+	{
+		if (_action.targetRequired)
+		{
+			with (cursor)
+			{
+				active= true;
+				activeAction = _action;
+				targetAll = _action.targetAll;
+				if (targetAll == MODE.VARIES) targetAll = true;
+				activeUser = _user;
+			
+			
+				//Side targetting
+				if (_action.targetEnemyByDefault)
+				{
+					targetIndex = 0;
+					targetSide = obj_battle.enemyUnits;
+					activeTarget = obj_battle.enemyUnits[targetIndex];
+				}
+				else //Self target
+				{
+					targetSide = obj_battle.partyUnits;
+					activeTarget = activeUser;
+					var _findSelf = function(_element)
+					{
+						return (_element == activeTarget)
+					}
+					targetIndex =array_find_index(obj_battle.partyUnits, _findSelf);
+				}
+			}
+		}
+		else 
+		{
+			BeginAction(_user,_action, -1);
+			with(oMenu) instance_destroy();
+		}
+	}
 }
+

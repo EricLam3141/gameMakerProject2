@@ -15,6 +15,19 @@ currentUser = noone;
 currentAaction = -1;
 currentTargets = noone;
 
+//Targeting cursor
+cursor = 
+{
+	activeUser: noone,
+	activeTarget: noone,
+	activeAction : -1,
+	targetSide : -1,
+	targetIndex : 0,
+	targetAll : false,
+	confirmDelay : 0,
+	active: false
+};
+
 
 //Creates enemys
 for (var i = 0; i < array_length(enemies); i++) {
@@ -84,13 +97,13 @@ function BattleStateSelectAction()
 						array_push(_subMenus[$ _action.subMenu], [_nameAndCount, menuSelectAction, [_unit, _action], _available]);
 					}
 				}
-				
-				var _subMenusArray = variable_struct_get_names(_subMenus);
-				for (var i = 0; i < array_length(_subMenusArray); i++)
-				{
-					array_push(_subMenus[$ _subMenusArray[i]], ["Back", MenuGoBack, -1, true]);
-					array_push(_menuOptions, [_subMenusArray[i], SubMenu, [_subMenus[$_subMenusArray[i]]], true]);
-				}
+
+			}
+			var _subMenusArray = variable_struct_get_names(_subMenus);
+			for (var i = 0; i < array_length(_subMenusArray); i++)
+			{
+				array_push(_subMenus[$ _subMenusArray[i]], ["Back", MenuGoBack, -1, true]);
+				array_push(_menuOptions, [_subMenusArray[i], SubMenu, [_subMenus[$_subMenusArray[i]]], true]);
 			}
 			Menu(x+10, y+110, _menuOptions, , 74,60);
 		}	
