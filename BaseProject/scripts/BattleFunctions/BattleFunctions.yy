@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "NewEncounter",
+  "name": "BattleFunctions",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
