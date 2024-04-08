@@ -4,7 +4,6 @@
 if (obj_battleUnitEnemy.hp <= 0 )
 {
 instance_destroy(obj_battle);
-instance_activate_layer("Instances");
 }
 
 battleState();
