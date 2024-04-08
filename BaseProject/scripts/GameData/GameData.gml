@@ -19,7 +19,7 @@ global.actionLibrary =
 	},
 	ice :
 	{
-		name:"Ice", 
+		name:"Magic stuff", 
 		description : "{0} casts Ice!",
 		subMenu : "Magic",
 		mpCost : 4,
@@ -63,8 +63,8 @@ global.party =
 		mp: 10,
 		mpMax: 15,
 		strength: 6,
-		sprites : { idle: spr_player_idle, attack: spr_player_defend, defend: spr_player_defend, down: sLuluDown},
-		actions : [global.actionLibrary.attack]
+		sprites : { idle: spr_player_idle, attack: spr_player_defend, defend: spr_player_defend, down: spr_down },
+		actions : [global.actionLibrary.attack,  global.actionLibrary.ice]
 	}
 	,
 	{
@@ -74,8 +74,8 @@ global.party =
 		mp: 20,
 		mpMax: 30,
 		strength: 4,
-		sprites : { idle: spr_kevin, attack: spr_kevin_attack, cast: sQuestyCast, down: sQuestyDown},
-		actions : [global.actionLibrary.attack, global.actionLibrary.ice]
+		sprites : { idle: spr_kevin, attack: spr_kevin_attack, down: spr_down },
+		actions : [global.actionLibrary.attack, ]
 	}
 ]
 
@@ -108,13 +108,13 @@ global.enemies =
 	,
 	bat: 
 	{
-		name: "Bat",
+		name: "Placeholder",
 		hp: 15,
 		hpMax: 15,
 		mp: 0,
 		mpMax: 0,
 		strength: 4,
-		sprites: { idle: sBat, attack: sBatAttack},
+		sprites: {},
 		actions: [],
 		xpValue : 18,
 		AIscript : function()
