@@ -70,7 +70,10 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "spriteId": null,
+  "spriteId": {
+    "name": "sTiles",
+    "path": "sprites/sTiles/sTiles.yy",
+  },
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
