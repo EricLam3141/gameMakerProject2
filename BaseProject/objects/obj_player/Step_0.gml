@@ -18,5 +18,3 @@ FourDirectionAnimate();
 
 x += lengthdir_x(spdWalk*_inputM,_inputD);
 y += lengthdir_y(spdWalk*_inputM,_inputD);
-
-
