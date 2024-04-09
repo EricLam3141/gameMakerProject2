@@ -9,7 +9,10 @@
     "name": "Field",
     "path": "folders/Objects/Field.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_water",
+    "path": "objects/obj_water/obj_water.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
