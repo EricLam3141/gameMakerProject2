@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy(obj_battle);
+instance_activate_object(obj_slime)
+instance_activate_object(obj_player);
 
 
 
