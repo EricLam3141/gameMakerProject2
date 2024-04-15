@@ -82,7 +82,7 @@ global.party =
 //Enemy Data
 global.enemies =
 {
-	slimeG: 
+	rat: 
 	{
 		name: "GIGA RAT",
 		hp: 30,

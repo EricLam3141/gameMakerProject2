@@ -2,4 +2,10 @@
 // You can write your code in this editor
 
 
-room_goto(Level1);
+
+
+
+// Inherit the parent event
+event_inherited();
+
+room_goto(TitleScreen);
