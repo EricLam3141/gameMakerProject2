@@ -1,11 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (obj_battleUnitEnemy.hp <= 0 )
+if (obj_battleUnitEnemy.hp <= 0)
 {
-instance_activate_all()
-instance_deactivate_object(obj_battle);
-
+	instance_activate_all()
+	instance_deactivate_object(obj_battle)
 }
 
 battleState();

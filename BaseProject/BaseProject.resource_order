@@ -23,6 +23,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sAttackExplode","order":6,"path":"sprites/sAttackExplode/sAttackExplode.yy",},
+    {"name":"obj_rat2","order":5,"path":"objects/obj_rat2/obj_rat2.yy",},
     {"name":"EndScreen","order":2,"path":"rooms/EndScreen/EndScreen.yy",},
     {"name":"fnM5x7","order":1,"path":"fonts/fnM5x7/fnM5x7.yy",},
     {"name":"spr_mainMenu","order":9,"path":"sprites/spr_mainMenu/spr_mainMenu.yy",},

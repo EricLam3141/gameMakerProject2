@@ -42,6 +42,7 @@
   "resources": [
     {"id":{"name":"fnOpenSansPX","path":"fonts/fnOpenSansPX/fnOpenSansPX.yy",},},
     {"id":{"name":"sAttackExplode","path":"sprites/sAttackExplode/sAttackExplode.yy",},},
+    {"id":{"name":"obj_rat2","path":"objects/obj_rat2/obj_rat2.yy",},},
     {"id":{"name":"EndScreen","path":"rooms/EndScreen/EndScreen.yy",},},
     {"id":{"name":"fnM5x7","path":"fonts/fnM5x7/fnM5x7.yy",},},
     {"id":{"name":"spr_mainMenu","path":"sprites/spr_mainMenu/spr_mainMenu.yy",},},
