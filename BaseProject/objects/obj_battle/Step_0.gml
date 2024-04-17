@@ -1,14 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (obj_battleUnitEnemy.hp <= 0)
-{
-	instance_activate_all()
-	instance_deactivate_object(obj_battle)
-}
 
 battleState();
 
+		
 //Control
 if (cursor.active)
 {
@@ -57,7 +53,15 @@ if (cursor.active)
 			if (targetIndex > (_targets -1)) targetIndex = 0;
 			
 			//Id target
-			activeTarget = targetSide[targetIndex];
+			try {
+				activeTarget = targetSide[targetIndex];
+			}
+			catch (_exception)
+			{
+				instance_activate_all()
+				with (oMenu) instance_destroy();
+				instance_deactivate_object(obj_battle)
+			}
 			
 			//Toggle all mode
 			if (activeAction.targetAll == MODE.VARIES) && (_keyToggle) //switch mode to all
