@@ -76,6 +76,7 @@
     {"id":{"name":"FontMenu","path":"fonts/FontMenu/FontMenu.yy",},},
     {"id":{"name":"spr_jedi_attack","path":"sprites/spr_jedi_attack/spr_jedi_attack.yy",},},
     {"id":{"name":"spr_kevin_attack","path":"sprites/spr_kevin_attack/spr_kevin_attack.yy",},},
+    {"id":{"name":"spr_boss_attack","path":"sprites/spr_boss_attack/spr_boss_attack.yy",},},
     {"id":{"name":"spr_meadow_trees","path":"sprites/spr_meadow_trees/spr_meadow_trees.yy",},},
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},},
     {"id":{"name":"sAttackCure","path":"sprites/sAttackCure/sAttackCure.yy",},},
