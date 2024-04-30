@@ -34,6 +34,7 @@
     {"name":"FontMenu","order":3,"path":"fonts/FontMenu/FontMenu.yy",},
     {"name":"spr_jedi_attack","order":14,"path":"sprites/spr_jedi_attack/spr_jedi_attack.yy",},
     {"name":"spr_kevin_attack","order":2,"path":"sprites/spr_kevin_attack/spr_kevin_attack.yy",},
+    {"name":"spr_boss_attack","order":16,"path":"sprites/spr_boss_attack/spr_boss_attack.yy",},
     {"name":"spr_meadow_trees","order":5,"path":"sprites/spr_meadow_trees/spr_meadow_trees.yy",},
     {"name":"oBlock","order":1,"path":"objects/oBlock/oBlock.yy",},
     {"name":"spr_player_run","order":1,"path":"sprites/spr_player_run/spr_player_run.yy",},
