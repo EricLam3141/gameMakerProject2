@@ -44,6 +44,7 @@
     {"name":"spr_meadow_grass","order":4,"path":"sprites/spr_meadow_grass/spr_meadow_grass.yy",},
     {"name":"sBox","order":9,"path":"sprites/sBox/sBox.yy",},
     {"name":"ExitRoom","order":2,"path":"rooms/ExitRoom/ExitRoom.yy",},
+    {"name":"spr_knight_idle","order":17,"path":"sprites/spr_knight_idle/spr_knight_idle.yy",},
     {"name":"StartRoom","order":1,"path":"rooms/StartRoom/StartRoom.yy",},
     {"name":"spr_pointer","order":12,"path":"sprites/spr_pointer/spr_pointer.yy",},
     {"name":"sBgField","order":8,"path":"sprites/sBgField/sBgField.yy",},

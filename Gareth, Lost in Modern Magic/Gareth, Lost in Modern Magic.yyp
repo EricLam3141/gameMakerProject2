@@ -90,6 +90,7 @@
     {"id":{"name":"MenuFunctions","path":"scripts/MenuFunctions/MenuFunctions.yy",},},
     {"id":{"name":"ExitRoom","path":"rooms/ExitRoom/ExitRoom.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
+    {"id":{"name":"spr_knight_idle","path":"sprites/spr_knight_idle/spr_knight_idle.yy",},},
     {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"id":{"name":"oBattleUnitEnemy","path":"objects/oBattleUnitEnemy/oBattleUnitEnemy.yy",},},
     {"id":{"name":"spr_pointer","path":"sprites/spr_pointer/spr_pointer.yy",},},
