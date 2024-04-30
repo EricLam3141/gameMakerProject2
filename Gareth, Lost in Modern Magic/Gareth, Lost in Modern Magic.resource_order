@@ -27,6 +27,7 @@
     {"name":"spr_meadow_props","order":7,"path":"sprites/spr_meadow_props/spr_meadow_props.yy",},
     {"name":"sSlash","order":13,"path":"sprites/sSlash/sSlash.yy",},
     {"name":"spr_jedi_battle","order":13,"path":"sprites/spr_jedi_battle/spr_jedi_battle.yy",},
+    {"name":"spr_boss_idle","order":15,"path":"sprites/spr_boss_idle/spr_boss_idle.yy",},
     {"name":"sAttackFire","order":2,"path":"sprites/sAttackFire/sAttackFire.yy",},
     {"name":"spr_meadow_water","order":6,"path":"sprites/spr_meadow_water/spr_meadow_water.yy",},
     {"name":"FontMenu","order":3,"path":"fonts/FontMenu/FontMenu.yy",},

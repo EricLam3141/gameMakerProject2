@@ -70,6 +70,7 @@
     {"id":{"name":"spr_meadow_props","path":"sprites/spr_meadow_props/spr_meadow_props.yy",},},
     {"id":{"name":"sSlash","path":"sprites/sSlash/sSlash.yy",},},
     {"id":{"name":"spr_jedi_battle","path":"sprites/spr_jedi_battle/spr_jedi_battle.yy",},},
+    {"id":{"name":"spr_boss_idle","path":"sprites/spr_boss_idle/spr_boss_idle.yy",},},
     {"id":{"name":"sAttackFire","path":"sprites/sAttackFire/sAttackFire.yy",},},
     {"id":{"name":"spr_meadow_water","path":"sprites/spr_meadow_water/spr_meadow_water.yy",},},
     {"id":{"name":"FontMenu","path":"fonts/FontMenu/FontMenu.yy",},},
