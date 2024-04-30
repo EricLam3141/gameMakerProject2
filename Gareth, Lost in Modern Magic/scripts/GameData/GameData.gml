@@ -202,7 +202,7 @@ global.party =
 		mp: 10,
 		mpMax: 15,
 		strength: 6,
-		sprites : { idle: spr_kevin_idle, attack: spr_kevin_attack, defend: spr_kevin_defend, down: spr_player_down},
+		sprites : { idle: spr_kevin_idle, attack: spr_kevin_attack, defend: spr_kevin_defend, down: spr_kevin_down},
 		actions : [global.actionLibrary.attackSlash, global.actionLibrary.defend, global.actionLibrary.escape]
 	}
 	,
