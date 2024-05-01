@@ -20,6 +20,7 @@
     {"name":"obj_button_exit","order":5,"path":"objects/obj_button_exit/obj_button_exit.yy",},
     {"name":"spr_kevin_defend","order":4,"path":"sprites/spr_kevin_defend/spr_kevin_defend.yy",},
     {"name":"sAttackIce","order":4,"path":"sprites/sAttackIce/sAttackIce.yy",},
+    {"name":"spr_heart_attack","order":19,"path":"sprites/spr_heart_attack/spr_heart_attack.yy",},
     {"name":"spr_ant_attack","order":12,"path":"sprites/spr_ant_attack/spr_ant_attack.yy",},
     {"name":"spr_rat_attack","order":8,"path":"sprites/spr_rat_attack/spr_rat_attack.yy",},
     {"name":"obj_menu","order":4,"path":"objects/obj_menu/obj_menu.yy",},
