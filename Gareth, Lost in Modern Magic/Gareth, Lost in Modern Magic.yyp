@@ -97,6 +97,7 @@
     {"id":{"name":"sBgField","path":"sprites/sBgField/sBgField.yy",},},
     {"id":{"name":"init","path":"scripts/init/init.yy",},},
     {"id":{"name":"oBattleUnit","path":"objects/oBattleUnit/oBattleUnit.yy",},},
+    {"id":{"name":"spr_knight_attack","path":"sprites/spr_knight_attack/spr_knight_attack.yy",},},
     {"id":{"name":"oFloatingText","path":"objects/oFloatingText/oFloatingText.yy",},},
     {"id":{"name":"MeadowTreesTitleSet","path":"tilesets/MeadowTreesTitleSet/MeadowTreesTitleSet.yy",},},
     {"id":{"name":"spr_kevin_down","path":"sprites/spr_kevin_down/spr_kevin_down.yy",},},

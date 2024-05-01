@@ -48,6 +48,7 @@
     {"name":"StartRoom","order":1,"path":"rooms/StartRoom/StartRoom.yy",},
     {"name":"spr_pointer","order":12,"path":"sprites/spr_pointer/spr_pointer.yy",},
     {"name":"sBgField","order":8,"path":"sprites/sBgField/sBgField.yy",},
+    {"name":"spr_knight_attack","order":18,"path":"sprites/spr_knight_attack/spr_knight_attack.yy",},
     {"name":"MeadowTreesTitleSet","order":4,"path":"tilesets/MeadowTreesTitleSet/MeadowTreesTitleSet.yy",},
     {"name":"spr_kevin_down","order":7,"path":"sprites/spr_kevin_down/spr_kevin_down.yy",},
     {"name":"sAttackHeal","order":3,"path":"sprites/sAttackHeal/sAttackHeal.yy",},
