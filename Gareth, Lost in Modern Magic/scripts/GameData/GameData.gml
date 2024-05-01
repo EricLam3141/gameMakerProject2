@@ -268,6 +268,78 @@ global.enemies =
 			return [_action, _target];
 		}
 	}
+	
+	,jedi:
+	{
+		name: "Jedi",
+		hp: 25,
+		hpMax: 25,
+		mp: 5,
+		mpMax: 5,
+		strength: 8,
+		sprites: {idle: spr_jedi_battle, attack: spr_jedi_attack},
+		actions: [global.actionLibrary.attackSlash],
+		xpValue: 30,
+		AIscript:  function()
+		{
+			//attack random party member
+			var _action = actions[0];
+			var _possibleTargets = array_filter(oBattle.partyUnits, function(_unit, _index)
+			{
+				return (_unit.hp > 0);
+			});
+			var _target = _possibleTargets[irandom(array_length(_possibleTargets)-1)];
+			return [_action, _target];
+		}
+	}
+	
+	,knight:
+	{
+		name: "Knight",
+		hp: 35,
+		hpMax: 35,
+		mp: 0,
+		mpMax: 0,
+		strength: 10,
+		sprites: {idle: spr_knight_idle, attack: spr_knight_attack},
+		actions: [global.actionLibrary.attackSlash],
+		xpValue: 45,
+		AIscript:  function()
+		{
+			//attack random party member
+			var _action = actions[0];
+			var _possibleTargets = array_filter(oBattle.partyUnits, function(_unit, _index)
+			{
+				return (_unit.hp > 0);
+			});
+			var _target = _possibleTargets[irandom(array_length(_possibleTargets)-1)];
+			return [_action, _target];
+		}
+	}
+	
+	,boss:
+	{
+		name: "Rika",
+		hp: 125,
+		hpMax: 125,
+		mp: 50,
+		mpMax: 50,
+		strength: 5,
+		sprites: {idle: spr_boss_idle,attack: spr_boss_attack},
+		actions: [global.actionLibrary.attack],
+		xpValue: 255,
+		AIscript:  function()
+		{
+			//attack random party member
+			var _action = actions[0];
+			var _possibleTargets = array_filter(oBattle.partyUnits, function(_unit, _index)
+			{
+				return (_unit.hp > 0);
+			});
+			var _target = _possibleTargets[irandom(array_length(_possibleTargets)-1)];
+			return [_action, _target];
+		}
+	}
 }
 
 

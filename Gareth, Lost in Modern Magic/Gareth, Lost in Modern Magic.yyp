@@ -62,6 +62,7 @@
     {"id":{"name":"spr_ant_attack","path":"sprites/spr_ant_attack/spr_ant_attack.yy",},},
     {"id":{"name":"spr_rat_attack","path":"sprites/spr_rat_attack/spr_rat_attack.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"oJedi","path":"objects/oJedi/oJedi.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"BattleFunctions","path":"scripts/BattleFunctions/BattleFunctions.yy",},},
     {"id":{"name":"oBattleUnitPC","path":"objects/oBattleUnitPC/oBattleUnitPC.yy",},},

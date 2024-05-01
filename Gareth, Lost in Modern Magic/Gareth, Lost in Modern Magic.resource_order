@@ -23,6 +23,7 @@
     {"name":"spr_ant_attack","order":12,"path":"sprites/spr_ant_attack/spr_ant_attack.yy",},
     {"name":"spr_rat_attack","order":8,"path":"sprites/spr_rat_attack/spr_rat_attack.yy",},
     {"name":"obj_menu","order":4,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"oJedi","order":2,"path":"objects/oJedi/oJedi.yy",},
     {"name":"Sprite30","order":2,"path":"sprites/Sprite30/Sprite30.yy",},
     {"name":"sTurnIndicator","order":14,"path":"sprites/sTurnIndicator/sTurnIndicator.yy",},
     {"name":"spr_meadow_props","order":7,"path":"sprites/spr_meadow_props/spr_meadow_props.yy",},
