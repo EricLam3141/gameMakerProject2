@@ -24,11 +24,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "Sprite38",
     "path": "sprites/Sprite38/Sprite38.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
