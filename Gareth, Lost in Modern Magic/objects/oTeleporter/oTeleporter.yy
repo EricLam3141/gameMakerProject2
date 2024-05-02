@@ -26,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite38",
-    "path": "sprites/Sprite38/Sprite38.yy",
+    "name": "spr_portal",
+    "path": "sprites/spr_portal/spr_portal.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
