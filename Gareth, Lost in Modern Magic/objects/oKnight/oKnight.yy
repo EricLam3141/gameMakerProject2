@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_knight_idle",
-    "path": "sprites/spr_knight_idle/spr_knight_idle.yy",
+    "name": "spr_knight_walk",
+    "path": "sprites/spr_knight_walk/spr_knight_walk.yy",
   },
   "spriteMaskId": null,
   "visible": true,

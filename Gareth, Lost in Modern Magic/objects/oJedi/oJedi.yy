@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_jedi_battle",
-    "path": "sprites/spr_jedi_battle/spr_jedi_battle.yy",
+    "name": "spr_jedi_walk",
+    "path": "sprites/spr_jedi_walk/spr_jedi_walk.yy",
   },
   "spriteMaskId": null,
   "visible": true,
