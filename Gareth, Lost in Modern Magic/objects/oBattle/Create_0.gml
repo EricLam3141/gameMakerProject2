@@ -274,6 +274,7 @@ function BattleStateVictoryCheck()
 		conclusionType = 0;
 		battleEndMessages[0] = "All party members defeated!";
 		battleEndMessages[1] = "Game over...";
+		room_goto(ExitRoom);
 	}
 	else
 	{

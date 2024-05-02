@@ -24,6 +24,7 @@
     {"name":"ConandStageTileSet","order":6,"path":"tilesets/ConandStageTileSet/ConandStageTileSet.yy",},
     {"name":"obj_button_start","order":4,"path":"objects/obj_button_start/obj_button_start.yy",},
     {"name":"spr_lose","order":27,"path":"sprites/spr_lose/spr_lose.yy",},
+    {"name":"stopTheMusic","order":14,"path":"objects/stopTheMusic/stopTheMusic.yy",},
     {"name":"spr_sign","order":25,"path":"sprites/spr_sign/spr_sign.yy",},
     {"name":"Sprite38","order":8,"path":"sprites/Sprite38/Sprite38.yy",},
     {"name":"oBossMusic","order":11,"path":"objects/oBossMusic/oBossMusic.yy",},

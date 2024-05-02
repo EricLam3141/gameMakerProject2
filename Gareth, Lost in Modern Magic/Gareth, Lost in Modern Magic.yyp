@@ -60,6 +60,7 @@
     {"id":{"name":"ConandStageTileSet","path":"tilesets/ConandStageTileSet/ConandStageTileSet.yy",},},
     {"id":{"name":"obj_button_start","path":"objects/obj_button_start/obj_button_start.yy",},},
     {"id":{"name":"spr_lose","path":"sprites/spr_lose/spr_lose.yy",},},
+    {"id":{"name":"stopTheMusic","path":"objects/stopTheMusic/stopTheMusic.yy",},},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},},
     {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},},
     {"id":{"name":"oBossMusic","path":"objects/oBossMusic/oBossMusic.yy",},},
