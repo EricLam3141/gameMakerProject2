@@ -25,7 +25,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6359437e-971a-45f4-8911-923386053725","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 9,
+  "origin": 4,
   "parent": {
     "name": "Custom",
     "path": "folders/Sprites/Custom.yy",
@@ -63,8 +63,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 14,
-    "yorigin": 15,
+    "xorigin": 16,
+    "yorigin": 16,
   },
   "swatchColours": [
     4278190335,

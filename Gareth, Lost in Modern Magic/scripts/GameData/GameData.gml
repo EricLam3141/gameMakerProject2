@@ -31,7 +31,7 @@ global.actionLibrary =
 	attackSlash :
 	{
 		name : "Attack",
-		description : "{0} attacks!",
+		description : "{0} Slashes!",
 		subMenu : -1,
 		targetRequired: true,
 		targetEnemyByDefault: true, //0: party/self, 1: enemy
@@ -123,6 +123,47 @@ global.actionLibrary =
 		}		
 	}
 	,
+	love:{
+		name: "Love Beam",
+		description: "{0} cast Love Beam! <3",
+		subMenu: "Magic",
+		mpCost: 5,
+		targetRequired: true,
+		targetEnemyByDefault: true,
+		targetAll: MODE.VARIES,
+		userAnimation: "attack",
+		effectSprite: spr_heart_attack,
+		effectOnTarget: MODE.ALWAYS,
+		func : function(_user, _targets)
+		{
+			var _damage = irandom_range(7,10);
+			BattleChangeHP(_targets[0], -_damage);
+			BattleChangeMP(_user, -mpCost)
+		}		
+	}
+	
+	,fans : 
+	{
+		name : "Fan Support",
+		description : "{0} receives Fan Support! Rika is Empowered!!",
+		subMenu : "Magic",
+		mpCost : 15,
+		targetRequired: false,
+		targetEnemyByDefault: false, //0: party/self, 1: enemy
+		targetAll: MODE.ALWAYS,
+		effectSprite: sAttackHeal,
+		effectOnTarget: MODE.ALWAYS,
+		userAnimation : "attack",
+		func : function(_user, _targets)
+		{
+			
+				var _heal = irandom_range(10,25);
+				BattleChangeHP(_user, _heal);
+				_user.strength += 1;
+			BattleChangeMP(_user, -mpCost)
+		}		
+	}
+	,
 	cureall : 
 	{
 		name : "Mass Cure",
@@ -197,21 +238,21 @@ global.party =
 [
 	{
 		name: "Kevin-Kun",
-		hp: 89,
-		hpMax: 89,
-		mp: 10,
-		mpMax: 15,
-		strength: 6,
+		hp: 52,
+		hpMax: 52,
+		mp: 0,
+		mpMax: 0,
+		strength: 7,
 		sprites : { idle: spr_kevin_idle, attack: spr_kevin_attack, defend: spr_kevin_defend, down: spr_kevin_down},
 		actions : [global.actionLibrary.attackSlash, global.actionLibrary.defend, global.actionLibrary.escape]
 	}
 	,
 	{
 		name: "Gareth",
-		hp: 18,
+		hp: 44,
 		hpMax: 44,
-		mp: 20,
-		mpMax: 30,
+		mp: 35,
+		mpMax: 35,
 		strength: 4,
 		sprites : { idle: spr_player_idle, attack: spr_player_attack, cast: spr_player_attack, down: spr_player_down},
 		actions : [global.actionLibrary.attack, global.actionLibrary.fire, global.actionLibrary.ice, global.actionLibrary.cureall, global.actionLibrary.escape]
@@ -221,14 +262,14 @@ global.party =
 //Enemy Data
 global.enemies =
 {
-	slimeG: 
+	rat: 
 	{
 		name: "GIGA RAT",
-		hp: 30,
-		hpMax: 30,
+		hp: 15,
+		hpMax: 15,
 		mp: 0,
 		mpMax: 0,
-		strength: 5,
+		strength: 3,
 		sprites: { idle: spr_rat, attack: spr_rat_attack},
 		actions: [global.actionLibrary.attack],
 		xpValue : 15,
@@ -245,14 +286,14 @@ global.enemies =
 		}
 	}
 	,
-	bat: 
+	ant: 
 	{
 		name: "Ant",
-		hp: 15,
-		hpMax: 15,
+		hp: 10,
+		hpMax: 10,
 		mp: 0,
 		mpMax: 0,
-		strength: 4,
+		strength: 2,
 		sprites: { idle: spr_ant, attack: spr_ant_attack},
 		actions: [global.actionLibrary.attack],
 		xpValue : 18,
@@ -322,16 +363,20 @@ global.enemies =
 		name: "Rika",
 		hp: 125,
 		hpMax: 125,
-		mp: 50,
-		mpMax: 50,
+		mp: 75,
+		mpMax: 75,
 		strength: 5,
 		sprites: {idle: spr_boss_idle,attack: spr_boss_attack},
-		actions: [global.actionLibrary.attack],
+		actions: [global.actionLibrary.attack,global.actionLibrary.love,global.actionLibrary.fans],
 		xpValue: 255,
 		AIscript:  function()
 		{
 			//attack random party member
-			var _action = actions[0];
+			var _decideAction = irandom_range(0,array_length(actions) -1 )
+			var _action = actions[_decideAction];
+			if(mp == 0){
+				_action = global.actionLibrary.attack
+			}
 			var _possibleTargets = array_filter(oBattle.partyUnits, function(_unit, _index)
 			{
 				return (_unit.hp > 0);

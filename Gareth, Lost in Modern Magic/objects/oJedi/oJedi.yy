@@ -15,8 +15,8 @@
     "path": "folders/Objects/Field.yy",
   },
   "parentObjectId": {
-    "name": "oSlime",
-    "path": "objects/oSlime/oSlime.yy",
+    "name": "oRat",
+    "path": "objects/oRat/oRat.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
