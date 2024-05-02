@@ -98,6 +98,7 @@
     {"id":{"name":"spr_meadow_grass","path":"sprites/spr_meadow_grass/spr_meadow_grass.yy",},},
     {"id":{"name":"sBox","path":"sprites/sBox/sBox.yy",},},
     {"id":{"name":"MenuFunctions","path":"scripts/MenuFunctions/MenuFunctions.yy",},},
+    {"id":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
     {"id":{"name":"ExitRoom","path":"rooms/ExitRoom/ExitRoom.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"spr_knight_idle","path":"sprites/spr_knight_idle/spr_knight_idle.yy",},},
@@ -128,7 +129,7 @@
     {"roomId":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"roomId":{"name":"MeadowRoom","path":"rooms/MeadowRoom/MeadowRoom.yy",},},
     {"roomId":{"name":"ConventionRoom","path":"rooms/ConventionRoom/ConventionRoom.yy",},},
-    {"roomId":{"name":"ExitRoom","path":"rooms/ExitRoom/ExitRoom.yy",},},
+    {"roomId":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
