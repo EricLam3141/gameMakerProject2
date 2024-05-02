@@ -18,6 +18,7 @@ global.actionLibrary =
 		targetEnemyByDefault: true,
 		targetAll: MODE.NEVER,
 		userAnimation : "attack",
+		sound: sndAttack,
 		effectSprite: sAttackBonk,
 		effectOnTarget: MODE.ALWAYS,
 		func : function(_user, _targets)
@@ -39,6 +40,7 @@ global.actionLibrary =
 		userAnimation : "attack",
 		effectSprite: sAttackSlash,
 		effectOnTarget: MODE.ALWAYS,
+		sound: sndSlash,
 		func : function(_user, _targets)
 		{
 			var _damage = ceil(_user.strength + random_range(-_user.strength * 0.25, _user.strength * 0.25));
@@ -91,6 +93,7 @@ global.actionLibrary =
 		effectSprite: sAttackFire,
 		effectSpriteNoTarget: sExplode,
 		effectOnTarget: MODE.VARIES,
+		sound: sndFire,
 		func : function(_user, _targets)
 		{
 			for (var i = 0; i < array_length(_targets); i++)
@@ -115,6 +118,7 @@ global.actionLibrary =
 		userAnimation : "cast",
 		effectSprite: sAttackIce,
 		effectOnTarget: MODE.ALWAYS,
+		sound: sndIce,
 		func : function(_user, _targets)
 		{
 			var _damage = irandom_range(10,15);
@@ -134,6 +138,7 @@ global.actionLibrary =
 		userAnimation: "attack",
 		effectSprite: spr_heart_attack,
 		effectOnTarget: MODE.ALWAYS,
+		sound: sndLove,
 		func : function(_user, _targets)
 		{
 			var _damage = irandom_range(7,10);
@@ -153,6 +158,7 @@ global.actionLibrary =
 		targetAll: MODE.ALWAYS,
 		effectSprite: sAttackHeal,
 		effectOnTarget: MODE.ALWAYS,
+		sound: sndCure,
 		userAnimation : "attack",
 		func : function(_user, _targets)
 		{
@@ -175,6 +181,7 @@ global.actionLibrary =
 		targetAll: MODE.ALWAYS,
 		effectSprite: sAttackHeal,
 		effectOnTarget: MODE.ALWAYS,
+		sound: sndCure,
 		userAnimation : "cast",
 		func : function(_user, _targets)
 		{
@@ -264,7 +271,7 @@ global.enemies =
 {
 	rat: 
 	{
-		name: "GIGA RAT",
+		name: "Giga Rat",
 		hp: 15,
 		hpMax: 15,
 		mp: 0,
@@ -288,7 +295,7 @@ global.enemies =
 	,
 	ant: 
 	{
-		name: "Ant",
+		name: "Giga Ant",
 		hp: 10,
 		hpMax: 10,
 		mp: 0,

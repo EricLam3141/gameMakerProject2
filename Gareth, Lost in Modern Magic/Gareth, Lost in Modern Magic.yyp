@@ -58,6 +58,7 @@
     {"id":{"name":"ConandStageTileSet","path":"tilesets/ConandStageTileSet/ConandStageTileSet.yy",},},
     {"id":{"name":"obj_button_start","path":"objects/obj_button_start/obj_button_start.yy",},},
     {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},},
+    {"id":{"name":"oBossMusic","path":"objects/oBossMusic/oBossMusic.yy",},},
     {"id":{"name":"sndSlash","path":"sounds/sndSlash/sndSlash.yy",},},
     {"id":{"name":"sBg","path":"sprites/sBg/sBg.yy",},},
     {"id":{"name":"spr_kevin_idle","path":"sprites/spr_kevin_idle/spr_kevin_idle.yy",},},

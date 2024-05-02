@@ -91,6 +91,7 @@ function BeginAction(_user, _action, _targets)
 			sprite_index = sprites[$ _action.userAnimation];
 			image_index = 0;
 		}
+		
 	}
 }
 	
@@ -198,9 +199,11 @@ function BattleStateSelectAction()
 
 function BattleStatePerformAction()
 {
+	
 	//if animation etc is still playing
 	if (currentUser.acting)
 	{
+		
 		//when it ends, perform action effect if it exists
 		if (currentUser.image_index >= currentUser.image_number -1)
 		{
@@ -229,6 +232,11 @@ function BattleStatePerformAction()
 				
 			}
 			currentAction.func(currentUser, currentTargets);
+			
+			//Sound Effects
+		if(variable_struct_exists(currentAction, "sound")){
+			audio_play_sound(currentAction.sound, false, false)
+		}
 		}
 	} 
 	else //wait for delay and then end the turn
