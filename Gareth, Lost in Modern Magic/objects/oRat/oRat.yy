@@ -33,8 +33,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_rat",
-    "path": "sprites/spr_rat/spr_rat.yy",
+    "name": "spr_rat_run_right",
+    "path": "sprites/spr_rat_run_right/spr_rat_run_right.yy",
   },
   "spriteMaskId": null,
   "visible": true,
