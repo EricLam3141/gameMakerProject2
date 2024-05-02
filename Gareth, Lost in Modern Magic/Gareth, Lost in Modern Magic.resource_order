@@ -65,6 +65,7 @@
     {"name":"spr_meadow_water","order":6,"path":"sprites/spr_meadow_water/spr_meadow_water.yy",},
     {"name":"FontMenu","order":3,"path":"fonts/FontMenu/FontMenu.yy",},
     {"name":"spr_jedi_attack","order":14,"path":"sprites/spr_jedi_attack/spr_jedi_attack.yy",},
+    {"name":"spr_main_menu","order":29,"path":"sprites/spr_main_menu/spr_main_menu.yy",},
     {"name":"spr_kevin_attack","order":2,"path":"sprites/spr_kevin_attack/spr_kevin_attack.yy",},
     {"name":"spr_win","order":26,"path":"sprites/spr_win/spr_win.yy",},
     {"name":"spr_boss_attack","order":16,"path":"sprites/spr_boss_attack/spr_boss_attack.yy",},

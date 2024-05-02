@@ -109,6 +109,7 @@
     {"id":{"name":"spr_meadow_water","path":"sprites/spr_meadow_water/spr_meadow_water.yy",},},
     {"id":{"name":"FontMenu","path":"fonts/FontMenu/FontMenu.yy",},},
     {"id":{"name":"spr_jedi_attack","path":"sprites/spr_jedi_attack/spr_jedi_attack.yy",},},
+    {"id":{"name":"spr_main_menu","path":"sprites/spr_main_menu/spr_main_menu.yy",},},
     {"id":{"name":"spr_kevin_attack","path":"sprites/spr_kevin_attack/spr_kevin_attack.yy",},},
     {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},},
     {"id":{"name":"spr_boss_attack","path":"sprites/spr_boss_attack/spr_boss_attack.yy",},},
