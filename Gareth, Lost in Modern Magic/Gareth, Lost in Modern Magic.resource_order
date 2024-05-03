@@ -54,6 +54,7 @@
     {"name":"spr_mic","order":30,"path":"sprites/spr_mic/spr_mic.yy",},
     {"name":"sTurnIndicator","order":14,"path":"sprites/sTurnIndicator/sTurnIndicator.yy",},
     {"name":"ratPath2","order":1,"path":"paths/ratPath2/ratPath2.yy",},
+    {"name":"obj_caption","order":17,"path":"objects/obj_caption/obj_caption.yy",},
     {"name":"conventionPath3","order":6,"path":"paths/conventionPath3/conventionPath3.yy",},
     {"name":"spr_meadow_props","order":7,"path":"sprites/spr_meadow_props/spr_meadow_props.yy",},
     {"name":"sndCure","order":5,"path":"sounds/sndCure/sndCure.yy",},

@@ -98,6 +98,7 @@
     {"id":{"name":"spr_mic","path":"sprites/spr_mic/spr_mic.yy",},},
     {"id":{"name":"sTurnIndicator","path":"sprites/sTurnIndicator/sTurnIndicator.yy",},},
     {"id":{"name":"ratPath2","path":"paths/ratPath2/ratPath2.yy",},},
+    {"id":{"name":"obj_caption","path":"objects/obj_caption/obj_caption.yy",},},
     {"id":{"name":"conventionPath3","path":"paths/conventionPath3/conventionPath3.yy",},},
     {"id":{"name":"spr_meadow_props","path":"sprites/spr_meadow_props/spr_meadow_props.yy",},},
     {"id":{"name":"sndCure","path":"sounds/sndCure/sndCure.yy",},},

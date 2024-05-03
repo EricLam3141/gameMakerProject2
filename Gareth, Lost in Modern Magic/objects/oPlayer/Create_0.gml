@@ -1,3 +1,4 @@
+
 spdWalk = 3;
 animIndex = 0;
 
